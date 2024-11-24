@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #5e3d84);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2rem;
+    animation: fadeIn 3s ease-in-out;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    color: #d4a373;
+}
+
+/* Image styling */
+img {
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Link button styling */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    background: #ff5733;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    animation: bounce 2s infinite;
+    transition: background 0.3s, transform 0.3s;
+}
+
+a:hover {
+    background: #d43f24;
+    transform: scale(1.1);
+}
